@@ -1,0 +1,90 @@
+.content-home {
+  width: 100%;
+  margin-top: 3.5rem;
+  justify-content:center ;
+}
+
+
+.video-home{
+    width: 800px;
+    max-width: 100%;
+    height: 380px;
+    border-radius: 21px;
+    margin: 0 auto;
+    background: #f4f4f4;
+}
+
+
+.subtitle-home{
+    justify-content: center;
+    width: 840px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
+.text-home{
+    width: 840px;
+    max-width: 100%;
+    margin: 0 auto;
+padding: .5rem;
+margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-home p{
+    color: #f4f4f4;
+    font-size: clamp(2rem, 2.5rem, 3rem);
+    font-family: bebas neue;
+    line-height: 1.5;
+    letter-spacing: .1rem;
+}
+
+.text-home span{
+    color: #F9A600;
+}
+
+.btn-home{
+    background: #F9A600;
+    width: 420px;
+    text-align: center;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.btn-home h4{
+    font-family: bebas neue;
+    font-size: clamp(2rem, 2.5rem, 3rem);
+    word-spacing: .6rem;
+    letter-spacing: .3rem;
+    color: #f4f4f4;
+}
+
+.btc-img-home{
+    width: 150px;
+    max-width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background: #F7931A;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: 40px;
+}
+
+.btc-img{
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    align-items: center;
+    border-radius: 100%;
+    background-position: center;
+    background-image: url('../../../public/extras/btc.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

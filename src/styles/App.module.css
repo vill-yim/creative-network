@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.content-app {
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(to bottom,#fc8a00e8,  #1e1e1e);
+}
+
+.content-header {
+  width: 1600px;
+  max-width: 100%;
+  height: 80px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0.5rem 0 0.5rem;
+}
+
+.header {
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 1400px;
+  max-width: 100%;
+  height: 75px;
+  border-radius: 42px;
+  background: #4d4d4d;
+  color: #f4f4f4;
+  font-family: bebas neue;
+  font-size: clamp(1.5rem, 1.8rem, 2rem);
+}
+
+.left-option-header {
+  height: 35px;
+  width: 300px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio {
+  width: 142px;
+  border-radius: 24px;
+  height: 40px;
+  padding:.1rem .3rem;
+  
+  align-items: center;
+  background: #252525;
+}
+
+.solutions {
+  
+  height: 40px;
+  padding:.1rem .3rem;
+  border-radius: 24px;
+  background: #252525;
+  width: 142px;
+}
+
+.logo-header {
+  width: 250px;
+  height: 75px;
+  align-items: center;
+  border-radius: 42px;
+  background: #252525;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: 70px;
+  margin: 0 auto;
+  background-position: center;
+  background-image: url("../../public/logos/logo-header.avif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.right-option-header {
+  width: 300px;
+  max-width: 100%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us {
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+  height: 35px;
+  border-radius: 24px;
+  background: #252525;
+  text-align: center;
+
+  height: 40px;
+  padding:.1rem .3rem;
+}
+
+footer {
+  width: 100%;
+  height: 75px;
+  margin: 0;
+  margin: 0 auto;
+
+  padding: 0;
+  justify-content: center;
+}
+
+.content-footer {
+  width: 1600px;
+  margin: 0 auto;
+
+  height: 100%;
+  border-radius: 50px 50px 0 0;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background: #1e1e1e;
+  bottom: 0;
+}
+
+.logo-footer {
+  width: 200px;
+  max-width: 100%;
+
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-foot {
+  width: 190px;
+  max-width: 100%;
+  height: 65px;
+  background-position: center;
+  background-image: url("../../public/logos/logo-white.avif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.texto-footer {
+  justify-content: center;
+  width: 200px;
+  align-items: center;
+}
+
+.texto-footer p {
+  color: #f4f4f4;
+  text-align: center;
+  font-size: clamp(1rem, 1.5rem, 1.8rem);
+  font-family: abel;
+}
+
+.redes-footer {
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  display: flex;
+align-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.x {
+  background-image: url("../../public/redes/x.png");
+}
+.instag {
+  background-image: url("../../public/redes/instag.png");
+}
+.linkedin {
+  background-image: url("../../public/redes/linkedin.png");
+}
+
+.x,
+.instag,
+.linkedin {
+  width: 50px;
+  height: 55px;
+background-size: cover;
+background-position: center;
+}
