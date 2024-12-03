@@ -13,12 +13,13 @@
   margin: 20px auto;
 background: red;  height: 60px;
   max-width: 100%;
+  margin-top: 80px;
 }
 
 
 .title-portfolio{
     color: #F7931A;
-    margin: 30px auto;
+    margin: 50px auto;
     font-family: bebas neue;
     width: 500px;
     max-width: 100%;
@@ -39,6 +40,20 @@ text-align: center;
     font-family: bebas neue;
     font-size:clamp(1.4rem,1.9rem,2rem);
   font-weight: 400;
+}
+
+
+
+.img-portfolio{
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    background-image: url('../../../public/extras/bg-figure.png');
+    margin: 0 auto;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
 }
 
 .container-cards {

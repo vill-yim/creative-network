@@ -20,6 +20,9 @@ export const Portfolio = () => {
             impression.
           </p>
         </div>
+
+        <div className={style["img-portfolio"]}></div>
+
       </div>
 
       <div className={style["container-cards"]}>
