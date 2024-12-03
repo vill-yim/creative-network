@@ -28,7 +28,7 @@ function App() {
 
           <Link to="/contact-us" className={style["right-option-header"]}>
             <div className={style["contact-us"]}>
-              <h4>Contac Us</h4>
+              <h4>Contact Us</h4>
             </div>
           </Link>
         </div>
