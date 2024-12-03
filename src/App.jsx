@@ -15,7 +15,7 @@ function App() {
             </Link>
 
             <Link to="solutions" className={style["solutions"]}>
-              <h4>Solutions</h4>
+              <h4>Solutions <span  className={style["flag"]}> </span></h4>
             </Link>
           </div>
 
