@@ -4,7 +4,7 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom,#fc8a00e8,  #1e1e1e);
+  background: linear-gradient(to top,#1e1e1e,#974901,  #1e1e1e);
 }
 
 .content-header {
@@ -13,16 +13,16 @@
   height: 80px;
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem 0.5rem 0 0.5rem;
+  padding-top: 1rem;
 }
+
 
 .header {
   position: fixed;
   align-items: center;
-  padding: 0.5rem;
   margin: 0 auto;
   display: flex;
-  backdrop-filter: blur(3px)brightness(0.26);  
+  backdrop-filter: blur(5px)brightness(.36);  
   justify-content: space-around;
   width: 1400px;
   max-width: 100%;
@@ -113,6 +113,17 @@
   cursor:pointer;
   height: 40px;
   padding:.1rem .3rem;
+}
+
+.pages{
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  max-height:100% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 footer {

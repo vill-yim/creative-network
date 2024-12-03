@@ -15,7 +15,9 @@ function App() {
             </Link>
 
             <Link to="solutions" className={style["solutions"]}>
-              <h4>Solutions <span  className={style["flag"]}> </span></h4>
+              <h4>
+                Solutions <span className={style["flag"]}> </span>
+              </h4>
             </Link>
           </div>
 
@@ -31,11 +33,13 @@ function App() {
         </div>
       </div>
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/solutions" element={<Solutions />} />
-      </Routes>
+      <div className={style["pages"]}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/solutions" element={<Solutions />} />
+        </Routes>
+      </div>
 
       <footer>
         <div className={style["content-footer"]}>
