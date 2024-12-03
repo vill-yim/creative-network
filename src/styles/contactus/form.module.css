@@ -1,0 +1,54 @@
+.formContainer {
+  background: #F7931A;
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #c9c9c9;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input,
+.textarea,
+.select {
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 18px;
+  padding: .5rem;
+  font-size: 1rem;
+  color: #c9c9c9;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #717171;
+}
+
+.selectContainer {
+  position: relative;
+}
+
+.select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z' fill='%23c9c9c9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1.5em;
+  padding-right: 2.5rem;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 100px;
+}

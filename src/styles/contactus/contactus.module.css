@@ -1,0 +1,14 @@
+.contactus-section{
+  margin: 0 auto;
+  min-height: 100vh;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff9100;
+  margin-bottom: 0.5rem;
+}

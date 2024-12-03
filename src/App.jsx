@@ -1,6 +1,7 @@
 import { Routes,Route,Link } from "react-router-dom";
 import { Home } from "./secctions/home/Home";
 import {Solutions} from './secctions/solutions/Solutions'
+import { Contactus } from "./secctions/contactus/Contactus";
 import { Portfolio } from "./secctions/portfolio/Portfolio";
 import style from "./styles/App.module.css";
 
@@ -25,11 +26,11 @@ function App() {
             <div className={style["logo"]}></div>
           </Link>
 
-          <div className={style["right-option-header"]}>
+          <Link to="/contact-us" className={style["right-option-header"]}>
             <div className={style["contact-us"]}>
               <h4>Contac Us</h4>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/solutions" element={<Solutions />} />
+          <Route path="/contact-us" element={<Contactus />} />
         </Routes>
       </div>
 
